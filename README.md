@@ -108,27 +108,27 @@
             <div class="question">
                 <p>а) Сколько порций овощей вы едите в день? (1 порция ≈ 80 г сырых или 40 г приготовленных)</p>
                 <div class="options">
-                    <label><input type="radio" name="veg" value="5" required> 5+ порций</span></label>
-                    <label><input type="radio" name="veg" value="3"> 3–4 порции</span></label>
-                    <label><input type="radio" name="veg" value="0"> меньше 3</span></label>
+                    <label><input type="radio" name="veg" value="5" required> 5+ порций</label>
+                    <label><input type="radio" name="veg" value="3"> 3–4 порции</label>
+                    <label><input type="radio" name="veg" value="0"> меньше 3</label>
                 </div>
             </div>
             
             <div class="question">
                 <p>б) Сколько цельных фруктов (не соков)?</p>
                 <div class="options">
-                    <label><input type="radio" name="fruits" value="5" required> 2+ порции</span></label>
-                    <label><input type="radio" name="fruits" value="3"> 1 порция</span></label>
-                    <label><input type="radio" name="fruits" value="0"> почти не ем</span></label>
+                    <label><input type="radio" name="fruits" value="5" required> 2+ порции</label>
+                    <label><input type="radio" name="fruits" value="3"> 1 порция</label>
+                    <label><input type="radio" name="fruits" value="0"> почти не ем</label>
                 </div>
             </div>
             
             <div class="question">
                 <p>в) Зелень (шпинат, салат) или бобовые (фасоль, чечевица)?</p>
                 <div class="options">
-                    <label><input type="radio" name="greens" value="5" required> ежедневно</span></label>
-                    <label><input type="radio" name="greens" value="3"> 2–3 раза/неделю</span></label>
-                    <label><input type="radio" name="greens" value="0"> редко</span></label>
+                    <label><input type="radio" name="greens" value="5" required> ежедневно</label>
+                    <label><input type="radio" name="greens" value="3"> 2–3 раза/неделю</label>
+                    <label><input type="radio" name="greens" value="0"> редко</label>
                 </div>
             </div>
         </div>
@@ -140,18 +140,18 @@
             <div class="question">
                 <p>а) Цельнозерновые (гречка, овсянка, ржаной хлеб)?</p>
                 <div class="options">
-                    <label><input type="radio" name="grains" value="10" required> 3+ порции/день</span></label>
-                    <label><input type="radio" name="grains" value="5"> 1–2 порции</span></label>
-                    <label><input type="radio" name="grains" value="0"> белый хлеб/рис</span></label>
+                    <label><input type="radio" name="grains" value="10" required> 3+ порции/день</label>
+                    <label><input type="radio" name="grains" value="5"> 1–2 порции</label>
+                    <label><input type="radio" name="grains" value="0"> белый хлеб/рис</label>
                 </div>
             </div>
             
             <div class="question">
                 <p>б) Молочные продукты (кефир, творог, сыр)?</p>
                 <div class="options">
-                    <label><input type="radio" name="dairy" value="10" required> 2+ порции/день</span></label>
-                    <label><input type="radio" name="dairy" value="5"> 1 порция</span></label>
-                    <label><input type="radio" name="dairy" value="0"> почти не употребляю</span></label>
+                    <label><input type="radio" name="dairy" value="10" required> 2+ порции/день</label>
+                    <label><input type="radio" name="dairy" value="5"> 1 порция</label>
+                    <label><input type="radio" name="dairy" value="0"> почти не употребляю</label>
                 </div>
             </div>
         </div>
@@ -163,18 +163,18 @@
             <div class="question">
                 <p>а) Рыба, курица, бобовые?</p>
                 <div class="options">
-                    <label><input type="radio" name="protein" value="5" required> 1–2 порции/день</span></label>
-                    <label><input type="radio" name="protein" value="3"> 2–3 раза/неделю</span></label>
-                    <label><input type="radio" name="protein" value="0"> редко</span></label>
+                    <label><input type="radio" name="protein" value="5" required> 1–2 порции/день</label>
+                    <label><input type="radio" name="protein" value="3"> 2–3 раза/неделю</label>
+                    <label><input type="radio" name="protein" value="0"> редко</label>
                 </div>
             </div>
             
             <div class="question">
                 <p>б) Полезные жиры (оливковое/льняное масло, орехи)?</p>
                 <div class="options">
-                    <label><input type="radio" name="fats" value="10" required> ежедневно</span></label>
-                    <label><input type="radio" name="fats" value="5"> 3–4 раза/неделю</span></label>
-                    <label><input type="radio" name="fats" value="0"> почти не ем</span></label>
+                    <label><input type="radio" name="fats" value="10" required> ежедневно</label>
+                    <label><input type="radio" name="fats" value="5"> 3–4 раза/неделю</label>
+                    <label><input type="radio" name="fats" value="0"> почти не ем</label>
                 </div>
             </div>
         </div>
@@ -186,36 +186,36 @@
             <div class="question">
                 <p>а) Рафинированные продукты (белый хлеб, выпечка)?</p>
                 <div class="options">
-                    <label><input type="radio" name="refined" value="10" required> редко</span></label>
-                    <label><input type="radio" name="refined" value="5"> 1–2 раза/неделю</span></label>
-                    <label><input type="radio" name="refined" value="0"> почти каждый день</span></label>
+                    <label><input type="radio" name="refined" value="10" required> редко</label>
+                    <label><input type="radio" name="refined" value="5"> 1–2 раза/неделю</label>
+                    <label><input type="radio" name="refined" value="0"> почти каждый день</label>
                 </div>
             </div>
             
             <div class="question">
                 <p>б) Соль (солёные закуски, консервы)?</p>
                 <div class="options">
-                    <label><input type="radio" name="salt" value="10" required> минимум</span></label>
-                    <label><input type="radio" name="salt" value="5"> умеренно</span></label>
-                    <label><input type="radio" name="salt" value="0"> много</span></label>
+                    <label><input type="radio" name="salt" value="10" required> минимум</label>
+                    <label><input type="radio" name="salt" value="5"> умеренно</label>
+                    <label><input type="radio" name="salt" value="0"> много</label>
                 </div>
             </div>
             
             <div class="question">
                 <p>в) Сахар (сладости, газировка)?</p>
                 <div class="options">
-                    <label><input type="radio" name="sugar" value="10" required> почти не ем</span></label>
-                    <label><input type="radio" name="sugar" value="5"> иногда</span></label>
-                    <label><input type="radio" name="sugar" value="0"> ежедневно</span></label>
+                    <label><input type="radio" name="sugar" value="10" required> почти не ем</label>
+                    <label><input type="radio" name="sugar" value="5"> иногда</label>
+                    <label><input type="radio" name="sugar" value="0"> ежедневно</label>
                 </div>
             </div>
             
             <div class="question">
                 <p>г) Насыщенные жиры (жирное мясо, сливочное масло)?</p>
                 <div class="options">
-                    <label><input type="radio" name="saturated" value="10" required> редко</span></label>
-                    <label><input type="radio" name="saturated" value="5"> умеренно</span></label>
-                    <label><input type="radio" name="saturated" value="0"> часто</span></label>
+                    <label><input type="radio" name="saturated" value="10" required> редко</label>
+                    <label><input type="radio" name="saturated" value="5"> умеренно</label>
+                    <label><input type="radio" name="saturated" value="0"> часто</label>
                 </div>
             </div>
         </div>
