@@ -227,7 +227,6 @@
 
     <script>
         document.getElementById('calculate-btn').addEventListener('click', function() {
-            // Получаем значения всех выбранных ответов
             const veg = parseInt(document.querySelector('input[name="veg"]:checked').value);
             const fruits = parseInt(document.querySelector('input[name="fruits"]:checked').value);
             const greens = parseInt(document.querySelector('input[name="greens"]:checked').value);
@@ -240,10 +239,8 @@
             const sugar = parseInt(document.querySelector('input[name="sugar"]:checked').value);
             const saturated = parseInt(document.querySelector('input[name="saturated"]:checked').value);
 
-            // Суммируем баллы
             const totalScore = veg + fruits + greens + grains + dairy + protein + fats + refined + salt + sugar + saturated;
 
-            // Определяем оценку и рекомендацию
             let rating, recommendation, resultClass;
             
             if (totalScore >= 80) {
@@ -260,7 +257,6 @@
                 resultClass = "bad";
             }
 
-            // Формируем текст результата
             const resultText = `
                 <h2>Ваш результат: ${totalScore} баллов из 100</h2>
                 <p><strong>${rating}</strong></p>
@@ -268,13 +264,11 @@
                 <button class="reset-btn" onclick="location.reload()">Пройти опрос заново</button>
             `;
 
-            // Отображаем результат
             const resultDiv = document.getElementById('result');
             resultDiv.innerHTML = resultText;
             resultDiv.className = resultClass;
             resultDiv.style.display = 'block';
 
-            // Прокручиваем страницу к результату
             resultDiv.scrollIntoView({ behavior: 'smooth' });
         });
     </script>
